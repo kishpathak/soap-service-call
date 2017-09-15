@@ -16,10 +16,6 @@ export class ServiceCallComponent implements OnInit {
 
   callSoapService() {
     console.log("Hi Service is calling ");
-    this.serviceCallService.soapServiceHttpCall().then(response => {
-      console.log(response);
-    }).catch(err => {
-      console.log("Error", err);
-    })
+    this.serviceCallService.soapServiceHttpCall();
   }
 }

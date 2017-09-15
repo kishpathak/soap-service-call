@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import * as $ from 'jquery';
+
 import { AppComponent } from './app.component';
 import { ServiceCallComponent } from './service-call/service-call.component';
 
